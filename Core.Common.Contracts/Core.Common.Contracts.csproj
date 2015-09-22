@@ -45,8 +45,14 @@
   </ItemGroup>
   <ItemGroup>
     <Compile Include="IAccountOwnedEntity.cs" />
+    <Compile Include="IBusinessEngine.cs" />
+    <Compile Include="IBusinessEngineFactory.cs" />
+    <Compile Include="IDataRepository.cs" />
+    <Compile Include="IDataRepositoryFactory.cs" />
     <Compile Include="IDirtyCapable.cs" />
     <Compile Include="IIdentifiableEntity.cs" />
+    <Compile Include="IServiceContract.cs" />
+    <Compile Include="IServiceFactory.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
   </ItemGroup>
   <ItemGroup>
