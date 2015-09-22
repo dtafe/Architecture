@@ -42,5 +42,6 @@ namespace CarRental.Business.Entities
                 CarId = value;
             }
         }
+
     }
 }

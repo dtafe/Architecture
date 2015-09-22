@@ -42,9 +42,16 @@ namespace CarRental.Business.Entities
                 RentalId = value;
             }
         }
-        int IAccountOwnedEntity.OwnerAccountId
+        public int OwnerAccountId
         {
-            get { return AccountId; }
+            get
+            {
+                return AccountId;
+            }
+            set
+            {
+                AccountId = value;
+            }
         }
     }
 }
